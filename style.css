@@ -4,7 +4,15 @@
     margin-top: 10%;
     font-size: 300%;
 }
+
 #title {
+    font-family: "Spectral SC - Semi Bold";
     text-align: center;
     font-size: 300%;
+    color: #EDEDED;
+}
+
+.logo{
+    height: 1.5em;
+    width: auto;
 }
