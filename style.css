@@ -1,7 +1,10 @@
 /* CSS styles */
-.construction{
+.construction {
     text-align: center;
-    margin: auto;
-    padding: 20%;
+    margin-top: 10%;
+    font-size: 300%;
+}
+#title {
+    text-align: center;
     font-size: 300%;
 }
