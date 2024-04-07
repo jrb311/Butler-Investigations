@@ -12,7 +12,15 @@
     color: #EDEDED;
 }
 
-.logo{
-    height: 1.5em;
-    width: auto;
+#logo {
+    font-family: "Spectral SC - Semi Bold";
+    color: #EDEDED;
+    font-size: 300%;
+    border: solid #EDEDED;
+    padding: 5px;
+}
+
+#title-bar {
+    display: flex;
+    justify-content: center;
 }
