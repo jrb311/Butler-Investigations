@@ -6,14 +6,14 @@
 }
 
 #title {
-    font-family: "Spectral SC - Semi Bold";
+    font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
     text-align: center;
     font-size: 300%;
     color: #EDEDED;
 }
 
 #logo {
-    font-family: "Spectral SC - Semi Bold";
+    font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
     color: #EDEDED;
     font-size: 300%;
     border: solid #EDEDED;
