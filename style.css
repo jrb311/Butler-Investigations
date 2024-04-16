@@ -7,7 +7,6 @@
 
 #title {
     font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
-    text-align: center;
     font-size: 300%;
     color: #EDEDED;
 }
@@ -16,11 +15,33 @@
     font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
     color: #EDEDED;
     font-size: 300%;
-    border: solid #EDEDED;
-    padding: 5px;
+    border: solid;
+    padding: 1%;
+    margin-left: 3%;
 }
 
 #title-bar {
     display: flex;
     justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    width: 30%;
+    height: auto;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+li {
+    font-size: 120%;
+}
+
+.line {
+    border-right: solid;
+    margin-left: 5%;
+    margin-right: 5%;
 }
