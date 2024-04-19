@@ -29,14 +29,14 @@ ul {
     display: flex;
     align-items: center;
     gap: 10%;
-    width: 30%;
+    width: 35%;
     height: auto;
     margin-bottom: 0px;
     padding-left: 1rem;
 }
 
 li {
-    font-size: 1vw;
+    font-size: 1.3vw;
 }
 
 .line {
