@@ -88,6 +88,9 @@
   .li-locations {
     font-size: 1vw;
   }
+  .li-services {
+    font-size: 0.8vw;
+  }
   #contact-footer {
     list-style-type: none;
     display: flex;
