@@ -8,12 +8,10 @@
 #title {
     font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
     font-size: 2.5vw;
-    color: #EDEDED;
 }
 
 #logo {
     font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
-    color: #EDEDED;
     font-size: 2.5vw;
     border: solid;
     padding: 2rem;
@@ -24,30 +22,85 @@
     justify-content: center;
 }
 
-ul {
+#ul-nav {
     list-style-type: none;
     display: flex;
     align-items: center;
     gap: 10%;
-    width: 35%;
+    width: 50%;
     height: auto;
     margin-bottom: 0px;
+    margin-left: 10%;
     padding-left: 1rem;
 }
 
-li {
+.li-header {
     font-size: 1.3vw;
 }
 
 .line {
     border-right: solid thin;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 #footer {
+    display: flex;
     position: absolute;
+    justify-content: center;
     bottom: 0;
     width: 100%;
-    height: 7.375rem;            /* Footer height */
   }
+  #logo-footer {
+    font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
+    font-size: 1.5vw;
+    padding: 1rem;
+    margin-left: 1%;
+    border: solid;
+  }
+  #title-footer {
+    font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
+    font-size: 1.5vw;
+    margin-right: 7%;
+  }
+  .loc-serv-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+
+  #locations-footer, #services-footer{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    
+  }
+  #locations-footer {
+    gap: 10%;
+  }
+  #services-footer {
+    width: 100%;
+    margin-bottom: 0px;
+    gap: 2%;
+  }
+  .li-locations {
+    font-size: 1vw;
+  }
+  #contact-footer {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    align-self: center;
+    margin-right: 1%;
+    margin-bottom: 0px;
+    margin-left: 7%;
+    padding-left: 0px;
+  }
+  .li-footer-contact {
+    text-align: right;
+    font-size: 1vw;
+  }
+  
