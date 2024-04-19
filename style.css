@@ -2,21 +2,21 @@
 .construction {
     text-align: center;
     margin-top: 10%;
-    font-size: 200%;
+    font-size: 3vw;
 }
 
 #title {
     font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
-    font-size: 200%;
+    font-size: 2.5vw;
     color: #EDEDED;
 }
 
 #logo {
     font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
     color: #EDEDED;
-    font-size: 200%;
+    font-size: 2.5vw;
     border: solid;
-    padding: 1%;
+    padding: 2rem;
 }
 
 #title-bar {   
@@ -36,7 +36,7 @@ ul {
 }
 
 li {
-    font-size: 100%;
+    font-size: 1vw;
 }
 
 .line {
