@@ -13,7 +13,7 @@
 #logo {
   font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
   font-size: 2.5vw;
-  border: solid;
+  border: solid thin;
   padding: 2rem;
 }
 
@@ -53,20 +53,20 @@
   #logo-footer {
     font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
     font-size: 1vw;
-    padding-top: 1.2rem;
+    padding-top: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
-    margin-left: 1%;
-    border: solid;
+    margin-left: 4%;
+    border: solid thin;
   }
   #title-footer {
     font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
     font-size: 1vw;
-    padding-top: 1.2rem;
+    padding-top: 1.5rem;
     padding-left: 1rem;
-    margin-right: 8%;
-    min-width: 12%;
+    margin-right: 5%;
+    min-width: 15%;
   }
   .loc-serv-footer {
     display: flex;
@@ -80,10 +80,10 @@
     display: flex;
     justify-content: center;
     padding-left: 0px;
-    
   }
   #locations-footer {
     gap: 10%;
+    margin-bottom: 0px;
   }
   #services-footer {
     width: 100%;
@@ -102,9 +102,9 @@
     flex-direction: column;
     align-items: right;
     align-self: center;
-    margin-right: 1%;
+    margin-right: 4%;
     margin-bottom: 0px;
-    margin-left: 8%;
+    margin-left: 5%;
     padding-left: 0px;
   }
   .li-footer-contact {
