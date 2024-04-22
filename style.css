@@ -1,4 +1,10 @@
 /* CSS styles */
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .construction {
   text-align: center;
   margin-top: 1%;
@@ -19,7 +25,7 @@
   margin-left: 40%;
 }
 .main-list-item {
-  font-size: 190%;
+  font-size: 1.5vw;
   margin-bottom: 2%;
 }
 
@@ -64,11 +70,10 @@
 
 #footer {
     display: flex;
-    position: absolute;
     justify-content: center;
-    bottom: 0;
     width: 100%;
     border-top: solid thin;
+    margin-top: auto;
   }
   #logo-footer {
     font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
