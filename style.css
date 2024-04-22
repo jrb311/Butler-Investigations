@@ -1,8 +1,26 @@
 /* CSS styles */
 .construction {
   text-align: center;
-  margin-top: 10%;
-  font-size: 3vw;
+  margin-top: 1%;
+  font-size: 2vw;
+  color: orangered;
+}
+
+.main-text {
+  margin-top: 1%;
+  margin-left: 12.5%;
+  margin-right: 8%;
+  margin-bottom: 2%;
+  font-size: 2vw;
+}
+
+#main-list{
+  list-style-type: none;
+  margin-left: 40%;
+}
+.main-list-item {
+  font-size: 190%;
+  margin-bottom: 2%;
 }
 
 #title {
@@ -114,4 +132,3 @@
     text-align: right;
     font-size: 1vw;
   }
-  
