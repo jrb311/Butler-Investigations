@@ -1,6 +1,8 @@
 /* CSS styles */
-body{
+#default {
   font-family: monospace;
+}
+body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
