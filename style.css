@@ -1,5 +1,6 @@
 /* CSS styles */
 body{
+  font-family: monospace;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -10,7 +11,7 @@ body{
   margin-top: 1%;
   margin-left: 8%;
   margin-right: 8%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   font-size: 2vw;
 }
 
