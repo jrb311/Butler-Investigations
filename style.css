@@ -8,75 +8,34 @@ body{
   justify-content: space-between;
   height: 100vh;
 }
-
-.main-text {
-  margin-top: 1%;
-  margin-left: 8%;
-  margin-right: 8%;
-  margin-bottom: 1%;
-  font-size: 2vw;
+main{
+  height: 60vh;
 }
-
-#main-list{
-  display: flex;
-  justify-content: center;
-
-}
-#main-list-bar, #main-list-content{
+.main-display{
   display: flex;
   flex-direction: column;
 }
 
-#main-list-bar {
-  margin-right: 2.5rem;
-}
-.main-content, .main-list-item {
-  font-size: 1.5vw;
-  margin-bottom: 0.5rem;
-}
-
-@media (max-width: 480px){
-  main{
-    height: 80vh;
-  }
-  #mobile-text{
-    font-size: 5vw;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    margin-left: 3rem;
-  }
-  .main-text {
-    height: 25vh;
-  }
-  .main-list-item-mobile {
-    font-size: 3.5vw;
-  }
-}
-.construction {
-  text-align: center;
-  margin-top: 1%;
+.main-text {
   font-size: 2vw;
-  color: orangered;
+  margin-left: 12%;
+  margin-right: 10%;
+  margin-top: 2%;
+  text-align: center;
 }
 
-
-
-#title {
+.title {
   font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
   font-size: 2.5vw;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  padding-bottom: 1rem;
 }
-
 #logo {
   font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
   font-size: 2.5vw;
   border: solid thin;
   padding: 2rem;
-}
-
-#title-bar {   
-  display: flex;
-  justify-content: center;
-  border-bottom: solid thin;
 }
 
 #logo-title {
@@ -98,6 +57,54 @@ body{
 
 .li-header {
     font-size: 1.3vw;
+}
+
+#title-bar {   
+  display: flex;
+  justify-content: center;
+  border-bottom: solid thin;
+}
+
+@media (max-width: 480px){
+  main{
+    height: 80vh;
+  }
+  #mobile-text{
+    font-size: 5vw;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 3rem;
+  }
+  .main-text {
+    height: 25vh;
+  }
+  .title{
+    font-size: 4vw;
+  }
+  #logo{
+    font-size: 4vw;
+    margin-right: 0.5rem;
+  }
+  .li-header{
+    font-size: 2.5vw;
+  }
+  #title-bar{
+    flex-direction: column;
+  }
+  #ul-nav{
+    justify-content: center;
+    width: 100%;
+  }
+  #logo-title{
+    margin-bottom: 5%;
+    justify-content: center;
+  }
+}
+.construction {
+  text-align: center;
+  margin-top: 1%;
+  font-size: 2vw;
+  color: orangered;
 }
 
 #footer {
