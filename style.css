@@ -184,8 +184,9 @@ main{
   .page-heading{
     margin-top: 1%;
     padding-left: 10.5vw;
-    width: 23%;
+    width: 27%;
     border-right: solid thin;
+    font-size: 2rem;
   }
 
   .link {
