@@ -62,6 +62,7 @@ main{
 #title-bar {   
   display: flex;
   justify-content: center;
+  gap: 3%;
   border-bottom: solid thin;
 }
 
@@ -178,16 +179,16 @@ main{
 
   .main-layout{
     display: flex;
-    flex-direction: column;
   }
 
   .page-heading{
     margin-top: 1%;
-    padding-left: 12vw;
-    padding-bottom: 1rem;
+    padding-left: 10.5vw;
+    width: 23%;
+    border-right: solid thin;
   }
 
-  #link {
+  .link {
     text-decoration: none;
     color: #000;
   }
