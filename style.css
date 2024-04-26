@@ -9,7 +9,7 @@ body{
   height: 100vh;
 }
 main{
-  height: 60vh;
+  height: 66vh;
 }
 .main-display{
   display: flex;
@@ -52,7 +52,7 @@ main{
   height: auto;
   margin-bottom: 0px;
   margin-right: 1%;
-  padding-left: 1rem;
+  padding-left: none;
 }
 
 .li-header {
@@ -68,6 +68,7 @@ main{
 
 .main-layout{
   display: flex;
+  margin-top: 3%;
 }
 
 .page-heading{
