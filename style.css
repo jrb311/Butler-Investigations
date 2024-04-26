@@ -164,15 +164,11 @@ main{
     width: 100%;
     border-top: solid thin;
   }
-#logo-footer {
-  font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
-  font-size: 1vw;
-  padding-top: 1.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
-  border: solid thin;
-  margin-left: 3%;
+.logo-footer {
+  align-self: center;
+  width: auto;
+  height: 50%;
+  margin-left: 1%;
 }
 #title-footer {
   font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
