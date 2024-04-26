@@ -70,6 +70,13 @@ main{
   border-bottom: solid thin;
 }
 
+#footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-top: solid thin;
+}
+
 .logo-footer {
   align-self: center;
   width: auto;
@@ -106,6 +113,10 @@ main{
   .logo-footer{
     width: 30%;
     height: auto;
+  }
+  #footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 
@@ -165,6 +176,10 @@ main{
     width: 30%;
     height: auto;
   }
+  #footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 }
 
 .construction {
@@ -173,13 +188,6 @@ main{
   font-size: 2vw;
   color: orangered;
 }
-
-#footer {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    border-top: solid thin;
-  }
 
 #title-footer {
   font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
