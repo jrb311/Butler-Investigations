@@ -24,6 +24,20 @@ main{
   text-align: center;
 }
 
+.main-contact-container{
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+}
+
+.main-contact-header{
+  border-right: solid thin;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0px;
+  align-self: center;
+}
+
 .title-container{
   display: flex;
   flex-direction: column;
