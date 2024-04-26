@@ -28,9 +28,6 @@ main{
   display: flex;
   flex-direction: column;
 }
-.license{
-  
-}
 
 .title {
   font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
@@ -73,6 +70,13 @@ main{
   border-bottom: solid thin;
 }
 
+.logo-footer {
+  align-self: center;
+  width: auto;
+  height: 50%;
+  margin-left: 1%;
+}
+
 .main-layout{
   display: flex;
   margin-top: 3%;
@@ -96,6 +100,13 @@ main{
 .main-content-mobile{
   display: none;
   visibility: hidden;
+}
+
+@media (max-width: 1000px) and (min-width: 480px) {
+  .logo-footer{
+    width: 30%;
+    height: auto;
+  }
 }
 
 @media (max-width: 480px){
@@ -150,7 +161,12 @@ main{
     visibility: visible;
     margin-top: 3%;
   }
+  .logo-footer{
+    width: 30%;
+    height: auto;
+  }
 }
+
 .construction {
   text-align: center;
   margin-top: 1%;
@@ -164,12 +180,7 @@ main{
     width: 100%;
     border-top: solid thin;
   }
-.logo-footer {
-  align-self: center;
-  width: auto;
-  height: 50%;
-  margin-left: 1%;
-}
+
 #title-footer {
   font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
   font-size: 1vw;
