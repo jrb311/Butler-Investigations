@@ -84,21 +84,6 @@ main{
   border-bottom: solid thin;
 }
 
-#footer {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 15%;
-  border-top: solid thin;
-}
-
-.logo-footer {
-  align-self: center;
-  width: auto;
-  height: 50%;
-  margin-left: 1%;
-}
-
 .main-layout{
   display: flex;
   margin-top: 3%;
@@ -124,87 +109,12 @@ main{
   visibility: hidden;
 }
 
-@media (max-width: 1000px) and (min-width: 480px) {
-  .logo-footer{
-    width: 30%;
-    height: auto;
-  }
-  #footer{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-}
-
-@media (max-width: 480px){
-  #mobile-text{
-    font-size: 5vw;
-    text-align: center;
-    margin-top: 6%;
-    margin-bottom: 5%;
-    margin-left: 3rem;
-  }
-  .main-text {
-    height: 25vh;
-    text-align: left;
-  }
-  .title{
-    font-size: 4vw;
-  }
-  #logo{
-    font-size: 4vw;
-  }
-  .li-header{
-    font-size: 2.5vw;
-  }
-  #title-bar{
-    flex-direction: column;
-  }
-  #ul-nav{
-    justify-content: center;
-    width: 100%;
-  }
-  #logo-title{
-    margin-bottom: 5%;
-    justify-content: center;
-  }
-  #main-page{
-    height: 60vh;
-  }
-  .page-heading{
-    padding-left: 0px;
-    margin-left: 10%;
-    margin-right: 5%;
-  }
-  .main-content{
-    display: none;
-    visibility: none;
-  }
-  .main-content-mobile{
-    display: flex;
-    visibility: visible;
-    margin-top: 3%;
-  }
-  .logo-footer{
-    width: 30%;
-    height: auto;
-  }
-}
-
-@media (max-width: 400px) {
-  .main-contact-header {
-    font-size: 5vw;
-  }
-  .contact-info{
-    font-size: 3vw;
-  }
-
-}
-
-.construction {
-  text-align: center;
-  margin-top: 1%;
-  font-size: 2vw;
-  color: orangered;
+#footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 15%;
+  border-top: solid thin;
 }
 
 #title-footer {
@@ -241,10 +151,7 @@ main{
   margin-bottom: 0px;
   gap: 2%;
 }
-.li-locations {
-  font-size: 1.2vw;
-}
-.li-services {
+.li-locations, .li-services {
   font-size: 1.2vw;
 }
 #contact-footer {
@@ -260,6 +167,118 @@ main{
 .li-footer-contact {
   font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
   font-size: 1vw;
+  text-align: right;
 }
+
+.logo-footer {
+  align-self: center;
+  width: auto;
+  height: 50%;
+  margin-left: 1%;
+}
+
+@media (max-width: 1000px) and (min-width: 480px) {
+  .logo-footer{
+    width: 30%;
+    height: auto;
+  }
+  #footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px){
+  #mobile-text{
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 5%;
+    margin-left: 3rem;
+  }
+  .main-text {
+    height: 25vh;
+    text-align: left;
+  }
+  .title{
+    font-size: 5vw;
+    padding-left: 0.5rem;
+  }
+  #logo{
+    font-size: 5vw;
+  }
+  .li-header{
+    font-size: 3vw;
+  }
+  #title-bar{
+    flex-direction: column;
+  }
+  #ul-nav{
+    justify-content: center;
+    width: 100%;
+  }
+  #logo-title{
+    margin-bottom: 5%;
+    justify-content: center;
+  }
+  #main-page{
+    height: 60vh;
+  }
+  .page-heading{
+    padding-left: 0px;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+  .main-content{
+    display: none;
+    visibility: none;
+  }
+  .main-content-mobile{
+    display: flex;
+    visibility: visible;
+    margin-top: 3%;
+  }
+  .logo-footer{
+    width: 30%;
+    height: auto;
+  }
+  #services-footer{
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+  }
+  #locations-footer {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  .li-footer-contact{
+    font-size: 1.5vh;
+    text-align: right;
+  }
+  .li-locations{
+    font-size: 1.4vh;
+  }
+  .li-services {
+    font-size: 1.4vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-contact-header {
+    font-size: 5vw;
+  }
+  .contact-info{
+    font-size: 3vw;
+  }
+
+}
+
+.construction {
+  text-align: center;
+  margin-top: 1%;
+  font-size: 2vw;
+  color: orangered;
+}
+
+
 
   
