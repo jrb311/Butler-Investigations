@@ -8,8 +8,7 @@
 body{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100vh;
+  min-height: 100vh;
 }
 main{
   height: 100%;
@@ -108,6 +107,7 @@ main{
   width: 100%;
   height: 15%;
   border-top: solid thin;
+  margin-top: auto;
 }
 
 #title-footer {
@@ -116,6 +116,7 @@ main{
   padding-top: 1.5rem;
   padding-left: 0.5rem;
   margin-right: 5%;
+  margin-top: auto;
 }
 .title-footer-container{
   display: flex;
@@ -187,10 +188,35 @@ main{
   border-right: solid thin;
   height: 10vh;
 }
-
+.main-content-container{
+  display: flex;
+  flex-direction: column;
+}
 .main-content{
   width: 70vw;
-  margin-left: 3%;
+  margin-left: 10%;
+  margin-bottom: 0px;
+  align-self: center;
+}
+.second-p{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.mid-p{
+  margin-bottom: 2%;
+}
+.last-p{
+  margin-bottom: 3%;
+}
+.JRB{
+  font-size: 3.5vh;
+  font-weight: 800;
+}
+.BI{
+  font-weight: 800;
+} 
+.imp{
+  font-weight: 600;
 }
 
 .main-content-mobile{
@@ -199,6 +225,17 @@ main{
 }
 
 /* Responsive design */
+@media (min-height: 1000px){
+  .JRB{
+    font-size: 3.5vh;
+  }
+}
+@media (min-width: 1001px){
+  .logo-footer{
+    width: 20%;
+    height: auto;
+  }
+}
 @media (max-width: 1000px) and (min-width: 480px) {
   .logo-footer{
     width: 30%;
@@ -207,6 +244,9 @@ main{
   #footer{
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+  .JRB{
+    font-size: 4vw;
   }
 }
 
@@ -251,15 +291,6 @@ main{
     margin-left: 10%;
     margin-right: 5%;
   }
-  .main-content{
-    display: none;
-    visibility: none;
-  }
-  .main-content-mobile{
-    display: flex;
-    visibility: visible;
-    margin-top: 3%;
-  }
   .logo-footer{
     width: 30%;
     height: auto;
@@ -282,8 +313,33 @@ main{
   .li-services {
     font-size: 1.4vh;
   }
-}
 
+  /* About pg mobile */
+  .main-line{
+    height: 7vh;
+  }
+  .main-content{
+    display: none;
+    visibility: none;
+  }
+  .main-content-mobile{
+    display: block;
+    visibility: visible;
+    margin-top: 3%;
+  }
+  .main-content-container{
+    font-size: 1vh;
+  }
+  .main-content{
+    width: 80%;
+  }
+  .JRB{
+    font-size: 6vw;
+  }
+}
+@media (max-height: 660px){
+  
+}
 @media (max-width: 400px) {
   .main-contact-header {
     font-size: 5vw;
