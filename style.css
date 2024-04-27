@@ -1,7 +1,10 @@
 /* CSS styles */
+/* Default font */
 #default {
   font-family: "Roboto Slab", monospace, serif;
 }
+
+/*Default element alignments on pages */
 body{
   display: flex;
   flex-direction: column;
@@ -11,6 +14,8 @@ body{
 main{
   height: 100%;
 }
+
+/* Index.html main content styling */
 .main-display{
   display: flex;
   flex-direction: column;
@@ -37,6 +42,8 @@ main{
   margin-bottom: 0px;
   align-self: center;
 }
+
+/* Header styling */
 
 .title-container{
   display: flex;
@@ -84,17 +91,6 @@ main{
   border-bottom: solid thin;
 }
 
-.main-layout{
-  display: flex;
-  margin-top: 3%;
-}
-
-.page-heading{
-  margin-top: 1%;
-  margin-right: 2%;
-  padding-left: 9vw;
-  font-size: 2rem;
-}
 .line{
   border-right: solid thin;
 }
@@ -104,10 +100,7 @@ main{
   color: #000;
 }
 
-.main-content-mobile{
-  display: none;
-  visibility: hidden;
-}
+/*Styling for footer */
 
 #footer {
   display: flex;
@@ -177,6 +170,35 @@ main{
   margin-left: 1%;
 }
 
+/* Styling for About page main content */
+.main-layout{
+  display: flex;
+  margin-top: 3%;
+}
+
+.page-heading{
+  margin-top: 1%;
+  margin-right: 2%;
+  padding-left: 9vw;
+  font-size: 2rem;
+}
+
+.main-line{
+  border-right: solid thin;
+  height: 10vh;
+}
+
+.main-content{
+  width: 70vw;
+  margin-left: 3%;
+}
+
+.main-content-mobile{
+  display: none;
+  visibility: hidden;
+}
+
+/* Responsive design */
 @media (max-width: 1000px) and (min-width: 480px) {
   .logo-footer{
     width: 30%;
