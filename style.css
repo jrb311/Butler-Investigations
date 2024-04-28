@@ -291,6 +291,7 @@ main{
     margin-left: 10%;
     margin-right: 5%;
   }
+  /*Responsive footer design */
   .logo-footer{
     width: 30%;
     height: auto;
@@ -304,7 +305,7 @@ main{
     margin-bottom: 3%;
   }
   .li-footer-contact{
-    font-size: 1.5vh;
+    font-size: 1.4vh;
     text-align: right;
   }
   .li-locations{
