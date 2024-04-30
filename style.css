@@ -226,12 +226,43 @@ main{
   visibility: hidden;
 }
 
+/* Contact pg */
+.contact-call-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  margin-left: 20vw;
+  margin-right: 2rem;
+  height: 45vh;
+  
+}
+.pnum-email-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 2vw;
+}
+
+.contact-content-mobile{
+  display: none;
+  visibility: hidden;
+}
 /* Responsive design */
 @media (min-height: 1000px){
   .JRB{
     font-size: 3.5vh;
+    height: 70vh;
   }
+  .contact-call-container{
+    margin-left: 0vw;
+    height: 60vh;
+    gap: 4rem;
+  }
+
 }
+
 @media (min-width: 1001px){
   .logo-footer{
     width: 20%;
@@ -250,8 +281,21 @@ main{
   .JRB{
     font-size: 3vw;
   }
+  .main-line{
+    height: 12vh;
+  }
   .li-header{
     font-size: 2vw;
+  }
+  .main-layout{
+    align-items: center;
+  }
+  .contact-call-container{
+    margin-left: 10vw;
+  }
+  .pnum-email-container{
+    gap: 1vh;
+    font-size: 3.5vw;
   }
 }
 
@@ -322,7 +366,7 @@ main{
 
   /* About pg mobile */
   .main-line{
-    height: 7vh;
+    height: 5vh;
   }
   .main-content{
     display: none;
@@ -342,9 +386,27 @@ main{
   .JRB{
     font-size: 6vw;
   }
-}
-@media (max-height: 660px){
-  
+  /* Contact pg style */
+  .contact-non-mobile{
+    display: none;
+    visibility: hidden;
+  }
+  .contact-content-mobile{
+    display: flex;
+    visibility: visible;
+  }
+  .contact-call-container{
+    justify-content: flex-start;
+    margin-left: 10vw;
+    margin-top: 20%;
+    margin-left: 15%;
+  }
+  .pnum-email-container{
+    justify-content: flex-start;
+    margin-top: 18%;
+    gap: 1rem;
+    font-size: 5vw;
+  }
 }
 @media (max-width: 400px) {
   .main-contact-header {
