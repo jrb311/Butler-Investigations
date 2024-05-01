@@ -110,6 +110,7 @@ main{
   margin-top: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  clear: both;
 }
 
 #title-footer {
@@ -249,6 +250,26 @@ main{
   display: none;
   visibility: hidden;
 }
+
+/*Styling for practice areas*/
+.accordion{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+  width: 100%;
+}
+
+.parea-content-mobile{
+  display: none;
+  visibility: hidden;
+}
+
+.parea-line{
+  border-right: solid thin;
+  height: 14vh;
+  margin-top: 1%;
+}
+
 /* Responsive design */
 @media (min-height: 1000px){
   .JRB{
@@ -287,7 +308,8 @@ main{
   .li-header{
     font-size: 2vw;
   }
-  .main-layout{
+  /* Contact pg */
+  .main-layout-contact{
     align-items: center;
   }
   .contact-call-container{
@@ -406,6 +428,25 @@ main{
     margin-top: 18%;
     gap: 1rem;
     font-size: 5vw;
+  }
+  /* Responsive practice area design */
+  .accordion-main{
+    display: none;
+    visibility: hidden;
+  }
+  .parea-content-mobile{
+    display: block;
+    visibility: visible;
+  }
+  .parea-line{
+    height: 7vh;
+  }
+  .accordion{
+  margin-top: 5vh;
+  width: 90%;
+  }
+  .parea-main-page{
+    height: 90vh;
   }
 }
 @media (max-width: 400px) {
