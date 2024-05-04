@@ -270,6 +270,10 @@ main{
   margin-top: 1%;
 }
 
+.parea-layout{
+  margin-top: 1%;
+}
+
 /* Responsive design */
 @media (min-height: 1000px){
   .JRB{
