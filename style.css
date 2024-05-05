@@ -105,7 +105,6 @@ main{
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 15%;
   border-top: solid thin;
   margin-top: auto;
   padding-top: 1rem;
@@ -113,18 +112,6 @@ main{
   clear: both;
 }
 
-#title-footer {
-  font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif, system-ui;
-  font-size: 1vw;
-  padding-top: 1.5rem;
-  padding-left: 0.5rem;
-  margin-right: 5%;
-  margin-top: auto;
-}
-.title-footer-container{
-  display: flex;
-  min-width: 15%;
-}
 .loc-serv-footer {
   display: flex;
   flex-direction: column;
@@ -144,12 +131,12 @@ main{
   margin-bottom: 0px;
 }
 #services-footer {
-  width: 90%;
+  width: 95%;
   margin-bottom: 0px;
   gap: 2%;
 }
 .li-locations, .li-services {
-  font-size: 1.2vw;
+  font-size: 1.4vw;
 }
 #contact-footer {
   list-style-type: none;
@@ -299,10 +286,6 @@ main{
     width: 30%;
     height: auto;
   }
-  #footer{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
   .JRB{
     font-size: 3vw;
   }
@@ -378,16 +361,17 @@ main{
   #locations-footer {
     margin-top: 3%;
     margin-bottom: 3%;
+    gap: 5%;
   }
   .li-footer-contact{
-    font-size: 1.4vh;
+    font-size: 1.2vh;
     text-align: right;
   }
   .li-locations{
-    font-size: 1.4vh;
+    font-size: 1.2vh;
   }
   .li-services {
-    font-size: 1.4vh;
+    font-size: 1.2vh;
   }
 
   /* About pg mobile */
