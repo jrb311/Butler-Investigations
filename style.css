@@ -1,7 +1,7 @@
 /* CSS styles */
 /* Default font */
 #default {
-  font-family: "Roboto Slab", monospace, serif;
+  font-family: "Roboto Slab", monospace, serif, system-ui;
 }
 
 /*Default element alignments on pages */
@@ -50,13 +50,13 @@ main{
 }
 
 .title {
-  font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
+  font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif, system-ui;
   font-size: 2.5vw;
   padding-top: 1rem;
   padding-left: 1rem;
 }
 #logo {
-  font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
+  font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif, system-ui;
   font-size: 2.5vw;
   border: solid thin;
   padding: 2rem;
@@ -114,7 +114,7 @@ main{
 }
 
 #title-footer {
-  font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
+  font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif, system-ui;
   font-size: 1vw;
   padding-top: 1.5rem;
   padding-left: 0.5rem;
@@ -162,7 +162,7 @@ main{
   padding-left: 0px;
 }
 .li-footer-contact {
-  font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif;
+  font-family: "Roboto Slab", "Spectral SC - Semi Bold", serif, system-ui;
   font-size: 1vw;
   text-align: right;
 }
