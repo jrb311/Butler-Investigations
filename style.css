@@ -260,7 +260,7 @@ footer{
 
 .parea-line{
   border-right: solid thin;
-  height: 14vh;
+  height: 5rem;
   margin-top: 1%;
 }
 
@@ -314,6 +314,11 @@ footer{
     gap: 1vh;
     font-size: 3.5vw;
   }
+  /*Practice area*/
+  .parea-line{
+    height: 5rem;
+  }
+
   /* Homepage */
   #mobile-text{
     font-size: calc(1.5rem + 1vw);
@@ -444,8 +449,13 @@ footer{
     display: block;
     visibility: visible;
   }
+  .practice{
+    font-size: calc(2vw + 1.5rem);
+    max-width: 50%;
+    margin-right: 0px;
+  }
   .parea-line{
-    height: 7vh;
+    height: 5rem;
   }
   .accordion{
   margin-top: 5vh;
