@@ -12,6 +12,13 @@ body{
 }
 main{
   height: 100%;
+  width: 100vw;
+}
+header{
+  width: 100vw;
+}
+footer{
+  width: 100vw;
 }
 
 /* Index.html main content styling */
